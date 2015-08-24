@@ -3,6 +3,16 @@
 
 > Patricio López ([@mrpatiwi](https://github.com/mrpatiwi)) y Sebastián Salata ([@sasalatart](https://github.com/sasalatart))
 
+##### ¿Cómo ejecutar este código?
+
+Clonamos el repositorio, instalamos las dependencias y lo ejecutamos:
+```sh
+$ git clone https://github.com/mrpatiwi/PromesasRecursivas.git
+$ cd PromesasRecursivas
+$ npm install
+$ npm start
+```
+
 ##### ¿Qué son?
 Representan operaciones que no han terminado aún, pero que eventualmente lo harán (y de paso retornarán *algo*). Este *algo* puede ser la notificación de un error, o el output de la operación.
 
@@ -12,7 +22,7 @@ Sus estados pueden ser:
  * *Rejected*: hubo un error.
 
 ##### ¿Por qué usarlas?
-Nos permiten ejecutar operaciones asincrónicas de manera secuencial. Además, muchas veces abusamos de los *callbacks*, y terminamos anidando un *callback* dentro de otro ('*callback hell*') lo que hace poco legible nuestro código. Sin embargo, mediante promesas podemos evitar esto.
+Nos permiten ejecutar operaciones asíncronas de manera secuencial. Además, muchas veces abusamos de los *callbacks*, y terminamos anidando un *callback* dentro de otro ('*callback hell*') lo que hace poco legible nuestro código. Sin embargo, mediante promesas podemos evitar esto.
 
 ##### ¿Qué hicimos? Análisis del algoritmo por partes.
 Para leer un directorio (sólo el "piso actual") usamos la función `readdirPromise`:

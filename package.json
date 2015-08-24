@@ -1,0 +1,12 @@
+{
+  "name": "recursive_promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recursive_promises.js",
+  "scripts": {
+    "start": "node recursive_promises.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34"
+  }
+}

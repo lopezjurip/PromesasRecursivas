@@ -1,7 +1,7 @@
 # Promesas
 ### Uso de promesas recursivas para leer la estructura de un directorio
 
-> Patricio López y Sebastián Salata
+> Patricio López ([@mrpatiwi](https://github.com/mrpatiwi)) y Sebastián Salata ([@sasalatart](https://github.com/sasalatart))
 
 ##### ¿Qué son?
 Representan operaciones que no han terminado aún, pero que eventualmente lo harán (y de paso retornarán *algo*). Este *algo* puede ser la notificación de un error, o el output de la operación.
